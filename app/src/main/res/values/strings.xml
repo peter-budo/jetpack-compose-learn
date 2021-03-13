@@ -1,4 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Learn Compose</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Composable learning</string>
+    <string name="title_activity_main">Main activity</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.peter.compose.ui.theme
+package com.peter.compose.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -7,15 +7,15 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = purple200,
+    primaryVariant = purple700,
+    secondary = teal200
 )
 
 private val LightColorPalette = lightColors(
-    primary = Purple500,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = purple500,
+    primaryVariant = purple700,
+    secondary = teal200
 
     /* Other default colors to override
     background = Color.White,
@@ -28,9 +28,9 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun LearnComposeTheme(
+fun BasicsCodelabTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    content: @Composable() () -> Unit
+    content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
         DarkColorPalette
@@ -40,8 +40,8 @@ fun LearnComposeTheme(
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
-        shapes = Shapes,
+        typography = typography,
+        shapes = shapes,
         content = content
     )
 }

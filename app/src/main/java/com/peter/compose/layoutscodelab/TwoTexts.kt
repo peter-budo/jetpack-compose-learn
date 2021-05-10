@@ -1,4 +1,4 @@
-package com.peter.compose
+package com.peter.compose.layoutscodelab
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Divider
@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.peter.compose.ui.LayoutsCodelabTheme
+import com.peter.compose.layoutscodelab.ui.LayoutsCodelabTheme
 
 @Composable
 fun TwoTexts(modifier: Modifier = Modifier, text1: String, text2: String) {

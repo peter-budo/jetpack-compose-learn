@@ -1,4 +1,4 @@
-package com.peter.compose.ui
+package com.peter.compose.layoutscodelab.ui
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.peter.compose
+package com.peter.compose.layoutscodelab
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.material.Button
@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.ConstraintSet
-import com.peter.compose.ui.LayoutsCodelabTheme
+import com.peter.compose.layoutscodelab.ui.LayoutsCodelabTheme
 
 @Composable
 fun ConstraintLayoutContent() {

@@ -1,4 +1,4 @@
-package com.peter.compose.ui
+package com.peter.compose.layoutscodelab.ui
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

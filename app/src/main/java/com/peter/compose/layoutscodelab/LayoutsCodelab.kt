@@ -1,4 +1,4 @@
-package com.peter.compose
+package com.peter.compose.layoutscodelab
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -18,7 +18,7 @@ import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.peter.compose.ui.LayoutsCodelabTheme
+import com.peter.compose.layoutscodelab.ui.LayoutsCodelabTheme
 
 val topics = listOf(
     "Arts & Crafts", "Beauty", "Books", "Business", "Comics", "Culinary",
